@@ -1,0 +1,59 @@
+---
+layout: default
+title: John Paul Brammer
+---
+<div class="row home">
+    <div id="home-hero">
+        <p class="description">
+            {{ site.description }}
+        </p>
+    </div>    
+</div>
+<div class="home-posts">
+    {% assign hero_work = (site.work|where:"hero","true") %}
+    {% for post in hero_work limit:1 %}
+        <a href="{{ post.url }}" class="hero-post-link">
+            <div class="hero-post" style="background-image: url({{ post.image | prepend: "../assets/img/"  }})">
+                <div class="row">
+                    <div class="featured-header">
+                        <h5>FEATURED WORK </h5>
+                        <span>{% for tag in post.tags %}<p class="tags">{{ tag }}</p>{% endfor %}</span>
+                    </div>
+                    <h1>
+                    {{ post.title }}
+                    </h1>
+                    <div class="meta-publisher">
+                        <img src="/assets/img/{{ post.publisher | append: '.svg' }}" alt="{{ post.publisher }}">
+                    </div>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+    <div class="row featured-posts">
+        {% assign featured_work = (site.work|where:"featured","true") %}
+        {% for post in featured_work limit:4 %}
+            <a href="{{ post.url }}" class="featured-post {{ post.feature-number | prepend: 'feature-' }}" style="background-image: url({{ post.image | prepend: "../assets/img/"  }})">
+                <div class="featured-post-data">
+                    <div class="featured-header">
+                        <h5>
+                            FEATURED WORK
+                        </h5>
+                    </div>
+                    <h1>
+                        {{ post.title }}
+                    </h1>
+                    <div class="meta-publisher">
+                        <img src="/assets/img/{{ post.publisher | append: '.svg' }}" alt="{{ post.publisher }}">
+                    </div>                        
+                </div>
+            </a>      
+        {% endfor %}
+        <div class="twitterfeed">
+            <a class="twitter-timeline" href="https://twitter.com/jpbrammer" width="100%" height="100%" data-chrome="nofooter noborders noscrollbars transparent" data-link-color="#00BFA5">Tweets by jpbrammer</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="twitterfeed-mobile">
+            <a class="twitter-timeline" href="https://twitter.com/jpbrammer" width="100%" height="100%" data-chrome="nofooter noborders noscrollbars transparent" data-tweet-limit="4" data-link-color="#00BFA5">Tweets by jpbrammer</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+        <a href="/work" class="home-all-link"><h4>View All Work <span>&#x2197;</span></h4></a>
+</div>

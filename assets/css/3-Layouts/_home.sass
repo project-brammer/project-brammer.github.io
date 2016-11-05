@@ -1,0 +1,273 @@
+.home
+    @media screen and (max-width: 960px)
+        max-width: 100%
+
+#home-hero
+    background: url('../img/hero.png')
+    background-size: contain
+    background-position: bottom right
+    background-repeat: no-repeat
+    padding: 48px 0 64px 0
+    @media screen and (max-width: 960px)
+        background-size: cover
+        background-position: center center
+        padding: 0 0 64px 0
+    .description
+        width: 50%
+        +responsive-type(3.5vw, 32px, 64px, 64px)
+        line-height: 1.3em
+        @media screen and (max-width: 960px)
+            width: 90%
+            line-height: 1.5em
+            text-align: center
+            margin: 0 auto
+
+.hero-post-link
+    display: block
+    text-decoration: none
+    cursor: pointer
+    &:hover
+        text-decoration: none
+        .hero-post:after
+            opacity: .2
+
+.hero-post
+    background-size: cover
+    background-position: top center
+    background-repeat: no-repeat
+    background-attachment: fixed
+    position: relative
+    color: #FFF
+    transition: all .3s ease
+    .featured-header
+        width: 100%
+        display: flex
+        flex-flow: row nowrap
+        justify-content: space-between
+        align-items: center
+        padding: 8px 32px
+        border: solid $john-green 1px
+        h5
+            color: $john-green
+            font-size: 1em
+            letter-spacing: 0.3em
+            font-weight: 700
+            margin: 0
+        span
+            width: 50%
+            text-align: right
+            font-family: 'Source Sans Pro', sans-serif
+            letter-spacing: 0.2em
+            color: rgba(white, 0.5)
+            font-size: 0.875em
+            font-weight: 700
+            text-transform: uppercase
+            .tags
+                margin: 0
+                display: inline
+                font-size: 0.875em
+                &:last-child:after
+                    content: ""
+                &:after
+                    content: " | "
+    h1, hr, .meta-publisher
+        color: #FFF
+        transition: all .3s ease
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background-color: #000
+        opacity: .6
+        transition: all .3s ease-in-out
+        z-index: 1
+
+.hero-post
+    height: 400px
+    width: 100%
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+    .row
+        position: relative
+        z-index: 2
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-between
+        align-items: stretch
+        h5
+            width: 100%
+            text-decoration: none
+        h1
+            margin: 0
+            width: 70%
+            +responsive-type(4vw, 32px, 64px, 64px)
+            line-height: 1.2em
+            padding: 16px 0
+        .meta-publisher
+            width: 13%
+            height: 100%
+            padding: 16px
+            border-left: solid $john-green 1px
+            border-right: solid $john-green 1px
+            border-bottom: solid $john-green 1px
+            position: relative
+            display: flex
+            flex-flow: column nowrap
+            img
+                opacity: 0.6
+        @media screen and (max-width: 960px)
+            height: auto
+            flex-flow: column wrap
+            align-items: flex-start
+            span
+                display: none
+            h1
+                width: 100%
+                padding: 16px 0 0 0
+            .meta-publisher
+                border-left: none
+                border-right: none
+                border-bottom: none
+                border-top: solid $john-green 1px
+                width: 100%
+                margin-top: 32px
+                padding: 16px 0 0 0
+                img
+                    width: 125px
+
+.featured-posts
+    padding: 48px 0
+    width: 1440px
+    height: 1250px
+    display: flex
+    flex-flow: column wrap
+    align-items: flex-start
+    justify-content: flex-start
+    align-content: space-between
+    @media screen and (max-width: 960px)
+        height: auto
+        flex-flow: column wrap
+        justify-content: space-around
+
+.featured-post, .twitterfeed
+    width: calc(50% - 24px)
+    height: 336px
+    margin-bottom: 48px
+    flex: 0 0 auto
+    position: relative
+    transiton: all .3s ease
+    background-size: cover
+    background-position: top center
+    @media screen and (max-width: 960px)
+        width: 100%
+        margin-bottom: 24px
+
+.featured-post
+    text-decoration: none
+    cursor: pointer
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background-color: #000
+        opacity: .6
+        transition: all .3s ease-in-out
+    &:hover
+        text-decoration: none
+        &:after
+            opacity: .4
+    @media screen and (max-width: 960px)
+        height: auto
+    .featured-post-data
+        position: relative
+        z-index: 3
+        display: flex
+        flex-flow: column nowrap
+        padding: 32px
+        height: 100%
+        .featured-header
+            flex: 0 0 auto
+            width: 100%
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-between
+            align-items: center
+            padding: 8px 16px
+            border: solid $john-green 1px
+            h5
+                text-decoration: none
+                color: $john-green
+                margin: 0
+                font-size: 0.875em
+                letter-spacing: 0.3em
+        h1
+            flex: 1 1 auto
+            +responsive-type(2vw, 24px, 64px, 64px)
+            margin-top: 32px
+            line-height: 1.2em
+            color: #FFF
+        .meta-publisher
+            flex: 0 0 auto
+            width: auto
+            height: 32px
+            padding: 8px 16px
+            border-left: solid $john-green 4px
+            img
+                width: auto
+                height: 16px
+                opacity: 0.6
+        @media screen and (max-width: 960px)
+            span
+                display: none
+            .meta-publisher
+                margin-top: 16px
+                img
+                    width: 100px
+
+.twitterfeed-mobile
+    display: none
+    overflow: auto
+    width: 100%
+    margin-bottom: 24px
+    @media screen and (max-width: 960px)
+        display: block
+        flex: 1 1 auto
+
+.twitterfeed
+    display: block
+    @media screen and (max-width: 960px)
+        display: none
+
+.twitterfeed, .twitterfeed-mobile
+    order: 3
+    padding: 32px
+    border: solid $john-green 1px
+    height: 720px
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.1)
+.feature-1
+    order: 0
+.feature-2
+    order: 1
+.feature-3
+    order: 2
+.feature-4
+    order: 4
+
+// TWITTER WIDGET
+
+.twitterfeed p
+    font-size: 16px !important
+
+.home-all-link
+    width: 100%
+    text-align: center
+    h5
+        font-size: 24px

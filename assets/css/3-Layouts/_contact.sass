@@ -1,0 +1,47 @@
+.contact-page-form
+    margin-bottom: 80px
+    width: 100%
+    form
+        display: flex
+        justify-content: space-between
+        @media screen and (max-width: 640px)
+            flex-direction: column
+        .name-email
+            width: calc(50% - 16px)
+            height: 30vh
+            @media screen and (max-width: 640px)
+                width: 100%
+                height: auto
+            input
+                border: 0
+                border-bottom: 1px solid #CCC
+                width: 100%
+                // padding: 1em 0
+                outline: 0
+                box-shadow: 0
+                font-size: 2em
+                margin-bottom: 50px
+        .message-submit
+            width: calc(50% - 16px)
+            @media screen and (max-width: 640px)
+                width: 100%
+            textarea
+                width: 100%
+                min-height: 10em
+                margin-bottom: 25px
+                padding: .5em
+                outline: 0
+                box-shadow: 0
+                font-size: 2em !important
+                border: 1px solid #CCC
+            input[type="submit"]
+                font-size: 1em
+
+.contact-title
+    font-family: 'Source Sans Pro', sans-serif
+    font-weight: bold
+    text-transform: uppercase
+    margin-top: 80px
+    margin-bottom: 44px
+    display: block
+    width: 100%
