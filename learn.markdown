@@ -19,7 +19,10 @@ Your admin area is where you will add work and edit all existing information. Th
 
 Your Work pages have several items that change the way it looks, they are outlined below:
 
-* **tags** – these are the categories of your articles
+* **tags** – these are the categories of your articles (i.e Politics, Opinion, etc.)
+
 * **hero** – if you make this *true* then it will become the first article on the homepage
+
 * **image** – this is the image that will be used for the article background
-* **publisher** – 
+
+* **publisher** –
