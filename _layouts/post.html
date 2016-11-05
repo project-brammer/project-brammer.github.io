@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.bare.css">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{% if page.quote %}{{ page.quote }}{% endif %}">
+        <meta property="og:image" content="{{ page.image | prepend: "../assets/img/"  }}">
+        <meta property="og:url" content="{{ page.url }}">
+        <meta name="twitter:card" content="{{ page.image | prepend: "../assets/img/"  }}">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="John Paul Brammer">
+        <meta name="application-name" content="John Paul Brammer">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+
+    {% include header.html %}
+
+    <div class="skinny-row" id="post-container">
+        <div class="meta-stick">
+          <div class="meta">
+            <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
+                  <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
+              </span><br>Category: <span>{% for tag in page.tags %}<a href="#" class="tags">{{ tag }}</a>{% endfor %}</span><br>Date: {{ page.date }}<br>
+            {% if page.original %}
+              <a href="{{ page.original }}" class="original-link" target="_blank">Original&#x2197;</a>
+            {% endif %}
+            <div class="share">
+              {% if page.quote %}
+                <div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }} </div>
+              {% endif %}
+              <a href="http://twitter.com/intent/tweet?text={{ page.quote }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="mailto:?subject=Check%20out%20'{{ page.title }}'%20by%20@jpbrammer&body={{ page.url | prepend: site.url }}%0D%0A%0D%0AArticle%20by%20John%20Paul%20Brammer%0D%0Ahttp://www.twitter.com/jpbrammer" class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/sharer/sharer.php
+               ?u={{ site.url | append: page.url | cgi_escape }}" class="facebook js-social-share" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="meta-mobile">
+          <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
+                <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
+            </span><br>Category: <span>{% for tag in page.tags %}<a href="#" class="tags">{{ tag }}</a>{% endfor %}</span><br>Date: {{ page.date }}<br>
+          {% if page.original %}
+            <a href="{{ page.original }}" class="original-link" target="_blank">Original&#x2197;</a>
+          {% endif %}
+          <div class="share">
+            {% if page.quote %}
+              <div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }} </div>
+            {% endif %}
+            <a href="http://twitter.com/intent/tweet?text={{ page.quote }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="mailto:?subject=Check%20out%20'{{ page.title }}'%20by%20@jpbrammer&body={{ page.url | prepend: site.url }}%0D%0A%0D%0AArticle%20by%20John%20Paul%20Brammer%0D%0Ahttp://www.twitter.com/jpbrammer" class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php
+     ?u={{ site.url | append: page.url | cgi_escape }}" class="facebook js-social-share" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+
+        <div class="post">
+          <div class="post-header">
+            <h2>{{ page.title }}</h2>
+          </div>
+          <div>
+          {{ content }}
+          </div>
+        </div>
+    </div>
+
+        <a href="/work" class="all-link"><h4>View All Work <span>&#x2197;</span></h4></a>
+
+
+    {% include footer.html %}
+    
+    </body>
+</html>

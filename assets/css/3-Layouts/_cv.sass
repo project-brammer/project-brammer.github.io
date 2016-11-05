@@ -1,0 +1,126 @@
+.cv
+    margin: 64px 0
+    @media screen and (max-width: 640px)
+        margin: 0 0 32px 0
+    .full-header, .full-header-mobile
+        display: flex
+        justify-content: space-between
+        @media screen and (max-width: 640px)
+            flex-direction: column
+            display: none
+        p
+            width: calc(66.66% - 16px)
+            display: block
+            text-transform: uppercase
+            font-size: .9em
+            text-align: right
+            letter-spacing: 0.1em
+            margin-bottom: 0
+            font-family: 'Source Sans Pro', sans-serif
+            @media screen and (max-width: 640px)
+                width: 100%
+                text-align: left
+        .name
+            font-weight: bold
+            text-align: left 
+            width: calc(33.33% - 16px)
+            @media screen and (max-width: 640px)
+                width: 100%
+    .full-header-mobile
+        display: none
+        @media screen and (max-width: 640px)
+            display: block
+    .section-header
+        font-family: 'Source Sans Pro', sans-serif
+        text-transform: uppercase
+        letter-spacing: .1em
+        margin-top: 64px
+        font-weight: bold
+        font-size: 18px
+        color: $john-green
+        @media screen and (max-width: 640px)
+            margin-top: 32px
+    .work-section
+        border-top: 1px solid #CCC
+        display: flex
+        justify-content: space-between
+        margin-top: 16px
+        padding-top: 16px
+        @media screen and (max-width: 640px)
+            flex-direction: column
+        .work-title
+            width: calc(33.33% - 16px)
+            margin-bottom: 0
+            line-height: default
+            text-transform: none
+            font-size: 1em
+            @media screen and (max-width: 640px)
+                width: 100%
+            .work-name, .work-position, .work-date
+                font-size: 16px
+                margin: 0
+                line-height: 1.5
+            .work-name
+                font-weight: bold
+            .work-position, .work-date
+                font-size: 14px
+                font-family: 'Source Sans Pro', sans-serif
+            .work-date
+                margin-top: 16px
+        ul
+            width: calc(66.66% - 16px)
+            margin-top: 0
+            margin-left: 0
+            padding-left: 1.2em
+            @media screen and (max-width: 640px)
+                width: 100%
+                border-top: 1px solid #CCC
+                margin-top: 16px
+                padding-top: 16px
+            li
+                margin-bottom: 16px
+    .education-section
+        border-top: 1px solid #CCC
+        display: flex
+        justify-content: space-between
+        margin-top: 16px
+        padding-top: 16px
+        @media screen and (max-width: 640px)
+            flex-direction: column
+        .education-title
+            width: calc(33.33% - 16px)
+            margin-bottom: 0
+            line-height: default
+            text-transform: none
+            font-size: 1em
+            @media screen and (max-width: 640px)
+                width: 100%
+            .education-name, .education-position, .education-date
+                font-size: 16px
+                margin: 0
+                line-height: 1.5
+            .education-name
+                font-weight: bold
+        .education-info
+            font-size: 16px
+            margin: 0
+            line-height: 1.5
+            width: calc(66.66% - 16px)
+            margin-bottom: 16px
+            @media screen and (max-width: 640px)
+                width: 100%
+                margin-top: 8px
+    .awards-section
+        border-top: 1px solid #CCC
+        margin-top: 16px
+        padding-top: 16px
+        @media screen and (max-width: 640px)
+            flex-direction: column
+        .awards-info
+            font-size: 16px
+            margin: 0
+            line-height: 1.5
+            margin-bottom: 16px
+            padding-right: 100px
+            @media screen and (max-width: 640px)
+                padding-right: 0

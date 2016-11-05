@@ -1,0 +1,56 @@
+*
+    box-sizing: border-box
+    font-feature-settings: "liga" 1, "kern" 1
+
+=navigation-list
+    list-style-type: none
+    padding: 0
+    margin: 0
+    overflow: hidden
+    > li
+        display: block
+        float: left
+        margin-right: 16px
+        &:last-child
+            margin-right: 0px
+
+.row
+    width: 1440px
+    max-width: 90%
+    margin: 0 auto
+
+.skinny-row
+    width: 960px
+    max-width: 90%
+    margin: 0 auto
+
+$john-green: #00BFA5
+
+.site-content
+    margin-top: 80px
+    margin-bottom: 80px
+    flex: 0 2 auto
+    transform: translateY(16px)
+    opacity: 0
+    animation: contentLoad .5s .8s ease forwards
+    @media screen and (max-width: 640px)
+        margin-top: 120px
+
+.all-link
+    width: 100%
+    text-align: center
+    margin-bottom: 48px
+    opacity: 0
+    animation: postLoad .5s 1s ease forwards
+    h5
+        font-size: 24px
+
+// ANIMATIONS
+
+@keyframes contentLoad
+    0%
+        transform: translateY(-32px)
+        opacity: 0
+    100%
+        transform: translateY(0)
+        opacity: 1

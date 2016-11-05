@@ -1,0 +1,30 @@
+<nav id="sidr"class="mobile-nav">
+  <a class="close-button">&#x21a4;</a>
+  <ul>
+    <li class="nav-item"><a href="/work">Work</a></li>
+    <li class="nav-item"><a href="/about">About</a></li>
+    <li class="nav-item"><a href="/contact">Contact</a></li>
+    <li class="nav-item"><a href="/cv">CV</a></li>
+    {% if site.twitter %}
+    <li class="nav-item"><a href="http://www.twitter.com/{{ site.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    {% endif %}
+    {% if site.instagram %}
+    <li class="nav-item"><a href="http://www.instagram.com/{{ site.instagram }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    {% endif %}
+  </ul>
+</nav>
+<div id="site-header-container">
+  <header class="row site-header">
+      <h1 class="name"><a href="/">John Paul Brammer</a></h1>
+      <a href="#sidr" class="menu-button">&#x2630;</a>
+      <nav class="nav">
+        <ul>
+          <li class="nav-item"><a href="/work">Work</a></li>
+          <li class="nav-item"><a href="/about">About</a></li>
+          <li class="nav-item"><a href="/contact">Contact</a></li>
+          <li class="nav-item"><a href="/cv">CV</a></li>
+          <li class="nav-item"><a href="http://www.twitter.com/jpbrammer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+  </header>
+</div>

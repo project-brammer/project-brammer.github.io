@@ -1,0 +1,146 @@
+.filter-container
+    padding: 8px 0 32px 0
+    background-color: #EEE
+    box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.1);
+
+.filter
+    h4
+        font-size: 1.2em
+        margin-bottom: 8px
+        text-transform: uppercase
+        letter-spacing: 0.05em
+    a
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 1em
+        font-family: 'Source Sans Pro', sans-serif
+        padding: 2px 8px
+        margin-bottom: 8px
+        color: white
+        background-color: #7d00fe
+        transition: all .15s ease
+
+        &:hover, &.active
+            text-decoration: none
+            background-color: #222
+.publisher
+        a
+            padding: 2px 8px
+            color: white
+            background-color: #2e4ffe
+            padding: 8px 16px
+            height: 32px
+            width: auto
+            display: inline-block
+            margin-right: 8px
+            margin-bottom: 8px
+            &:hover, &.active
+                background-color: #222
+            img
+                width: auto
+                height: 16px
+.posts
+    width: 100%
+    margin: 48px auto
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    transition: all .3s ease
+    @media screen and (max-width: 960px)
+        height: auto
+        flex-flow: column wrap
+        justify-content: space-around
+    .post
+        width: calc(50% - 24px)
+        height: 400px
+        margin-bottom: 48px
+        background-size: cover
+        background-repeat: no-repeat
+        padding: 32px 112px 32px 32px
+        position: relative
+        display: flex
+        flex-flow: column nowrap
+        justify-content: space-between
+        transition: all .3s ease
+        @media screen and (max-width: 960px)
+            width: 100%
+            margin-bottom: 24px
+            height: 300px
+            padding: 32px 56px 32px 32px
+        &:hover
+            text-decoration: none
+            &:after
+                opacity: .3
+        i
+            position: absolute
+            font-size: 24px
+            right: 16px
+            top: 16px
+            z-index: 4
+            color: #222
+            @media screen and (max-width: 640px)
+                top: 8px
+                right: 8px
+                font-size: 16px
+        .meta-publisher
+            flex: 0 0 auto
+            width: auto
+            height: 32px
+            padding: 8px 16px
+            border-left: solid $john-green 4px
+            position: relative
+            z-index: 3
+            img
+                width: auto
+                height: 16px
+                opacity: 0.6
+        .post-info
+            position: relative
+            z-index: 3
+            h2
+                color: white
+                margin: 0
+                margin-bottom: 32px
+                +responsive-type(2.5vw, 24px, 64px, 64px)
+            span
+                width: 50%
+                text-align: right
+                font-family: 'Source Sans Pro', sans-serif
+                letter-spacing: 0.2em
+                color: rgba(white, 0.5)
+                font-size: 0.875em
+                font-weight: 700
+                text-transform: uppercase
+                .tags
+                    margin: 0
+                    display: inline
+                    font-size: 0.875em
+                    &:last-child:after
+                        content: ""
+                    &:after
+                        content: " | "
+        &:before
+            content: ""
+            width: 112px
+            height: 112px
+            background-color: #FFF
+            background-size: cover
+            clip-path: polygon(0% 100%, 100% 100%, 0% 0%)
+            transform: rotate(-180deg)
+            position: absolute
+            top: -1px
+            right: -1px
+            z-index: 3
+            @media screen and (max-width: 960px)
+                width: 56px
+                height: 56px
+        &:after
+            content: ""
+            position: absolute
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            background-color: #000
+            opacity: 0.5
+            transition: all .3s ease
