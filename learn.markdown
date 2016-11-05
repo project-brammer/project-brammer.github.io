@@ -5,8 +5,7 @@ permalink: "/learn/"
 layout: skinny-content
 ---
 
-
-= Hey John! This is where we house all instructions on how to use your new website.
+## Hey John! This is where we house all instructions on how to use your new website.
 
 –
 
@@ -16,6 +15,6 @@ Your admin area is where you will add work and edit all existing information. Th
 
 –
 
-#### 
+### Updating & adding portfolio pieces
+
 Your Work pages have several items that change the way it looks, they are outlined below:
-</div>
