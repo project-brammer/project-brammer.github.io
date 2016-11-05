@@ -19,9 +19,9 @@ defaults:
     values:
       layout: post
       tags: []
-      title:
-      hero:
-      image: 
-      publisher:
-      original:
-      quote:
+      title: ""
+      hero: ""
+      image: ""
+      publisher: ""
+      original: ""
+      quote: ""
