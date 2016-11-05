@@ -1,5 +1,5 @@
 ---
-title: Learn
+title: Learn | John Paul Brammer
 date: 2016-11-05 22:04:00 Z
 layout: default
 ---
