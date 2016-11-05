@@ -1,9 +1,10 @@
 ---
-title: learn
+title: Learn
 date: 2016-11-05 22:04:00 Z
-Title: Learn.
 layout: default
 ---
+
+<div class="skinny-row">
 
 Hey John! This is where we house all instructions on how to use your new website.
 
@@ -14,3 +15,5 @@ Hey John! This is where we house all instructions on how to use your new website
 Your admin area is where you will add work and edit all existing information. The link above takes you directly to the work section of the page, where you will do most of your work.
 
 –
+
+</div>
