@@ -14,7 +14,7 @@ layout: default
     {% assign hero_work = (site.work|where:"hero","true") %}
     {% for post in hero_work limit:1 %}
         <a href="{{ post.url }}" class="hero-post-link">
-            <div class="hero-post" style="background-image: url({{ post.image | prepend: "../assets/img/"  }})">
+            <div class="hero-post" style="background-image: url({{ post.image }})">
                 <div class="row">
                     <div class="featured-header">
                         <h5>FEATURED WORK </h5>
@@ -33,7 +33,7 @@ layout: default
     <div class="row featured-posts">
         {% assign featured_work = (site.work|where:"featured","true") %}
         {% for post in featured_work limit:4 %}
-            <a href="{{ post.url }}" class="featured-post {{ post.feature-number | prepend: 'feature-' }}" style="background-image: url({{ post.image | prepend: "../assets/img/"  }})">
+            <a href="{{ post.url }}" class="featured-post {{ post.feature-number | prepend: 'feature-' }}" style="background-image: url({{ post.image }})">
                 <div class="featured-post-data">
                     <div class="featured-header">
                         <h5>
