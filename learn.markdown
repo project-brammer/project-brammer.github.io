@@ -19,9 +19,13 @@ Your admin area is where you will add work and edit all existing information. Th
 
 Your Work pages have several items that change the way it looks, they are outlined below:
 
-**Item** | Item Purpose
+* **tags** | these are the categories of your articles|
+  
 
-**tags** | these are the categories of your articles|
-**hero** | if you make this *true* then it will become the first article on the homepage|
-**image** | this is the image that will be used for the article background|
-**publisher** |
+* **hero** | if you make this *true* then it will become the first article on the homepage|
+  
+
+* **image** | this is the image that will be used for the article background|
+  
+
+* **publisher** |
