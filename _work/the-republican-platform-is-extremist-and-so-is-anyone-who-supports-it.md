@@ -1,7 +1,8 @@
 ---
+title: The Republican platform is extremist – and so is anyone who supports it
+tags:
+- politics
 layout: post
-tags: [politics]
-title:  "The Republican platform is extremist – and so is anyone who supports it"
 featured: true
 feature-number: 4
 image: 45002.jpg

@@ -1,12 +1,15 @@
 ---
+title: 'A match made in hell: Donald Trump, Mike Pence, and the bigots'
+tags:
+- politics
+- opinion
 layout: post
-tags: [politics, opinion]
-title: "A match made in hell: Donald Trump, Mike Pence, and the bigots"
 hero: true
 image: trump.jpg
-publisher: "guardian"
-original: "https://www.theguardian.com/commentisfree/2016/aug/11/trump-pence-bigots-florida-lgbt-conference"
-quote: "There’s something medieval about Trump’s uneasy partnership with his running mate Mike Pence"
+publisher: guardian
+original: https://www.theguardian.com/commentisfree/2016/aug/11/trump-pence-bigots-florida-lgbt-conference
+quote: There’s something medieval about Trump’s uneasy partnership with his running
+  mate Mike Pence
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
