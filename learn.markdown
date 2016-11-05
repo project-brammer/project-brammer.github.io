@@ -5,7 +5,7 @@ permalink: "/learn/"
 layout: page
 ---
 
-<div class="skinny-row">
+<div class="skinny-row" markdown="1">
 
 Hey John! This is where we house all instructions on how to use your new website.
 
