@@ -3,9 +3,9 @@ title: I was so ashamed of my body that I locked myself in my apartment for days
   Here’s why.
 tags:
 - gender
-layout: post
-image: 4500.jpg
+image: "/uploads/Drone-Design-Illo.gif"
 publisher: vox
+layout: post
 ---
 
 On the third day of being locked in my apartment, it dawned on me that I would eventually have to step outside.
