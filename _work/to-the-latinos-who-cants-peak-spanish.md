@@ -1,10 +1,9 @@
 ---
-title: To the Latinos Who Can’t Speak Spanish
-tags:
-- race
 layout: post
+tags: [race]
+title: "To the Latinos Who Can’t Speak Spanish"
 image: 4500.jpg
-publisher: huffington
+publisher: "huffington"
 ---
 
 “No hablo español.”

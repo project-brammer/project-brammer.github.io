@@ -1,8 +1,7 @@
 ---
-title: Backing for the wall spells the end of Republican decency
-tags:
-- politics
 layout: post
+tags: [politics]
+title:  "Backing for the wall spells the end of Republican decency"
 featured: true
 feature-number: 3
 image: 5472.jpg

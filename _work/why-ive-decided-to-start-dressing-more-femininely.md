@@ -1,12 +1,10 @@
 ---
-title: Why I’ve Decided To Start Dressing More Femininely
-tags:
-- gender
 layout: post
+tags: [gender]
+title: "Why I’ve Decided To Start Dressing More Femininely"
 image: 2294.jpg
-publisher: buzzfeed
-quote: I consider all the ways I have muted myself. All that, and I can still be killed
-  just for standing in a gay bar.
+publisher: "buzzfeed"
+quote: "I consider all the ways I have muted myself. All that, and I can still be killed just for standing in a gay bar."
 ---
 
 There comes a time in every young queer’s life when they are struck by lightning.

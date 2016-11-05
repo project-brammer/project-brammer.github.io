@@ -1,9 +1,8 @@
 ---
-title: About | John Paul Brammer
-permalink: "/about/"
 layout: content-page
+title: About | John Paul Brammer
+permalink: /about/
 ---
-
 <a href="#" class="about-header">
     Download Media Kit <i class="fa fa-download" aria-hidden="true"></i>
 </a>

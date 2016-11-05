@@ -1,11 +1,9 @@
 ---
-title: I was so ashamed of my body that I locked myself in my apartment for days.
-  Here’s why.
-tags:
-- gender
 layout: post
+tags: [gender]
+title: "I was so ashamed of my body that I locked myself in my apartment for days. Here’s why."
 image: 4500.jpg
-publisher: vox
+publisher: "vox"
 ---
 
 On the third day of being locked in my apartment, it dawned on me that I would eventually have to step outside.

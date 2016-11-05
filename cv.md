@@ -1,7 +1,7 @@
 ---
-title: CV | John Paul Brammer
-permalink: "/cv/"
 layout: content-page
+title: CV | John Paul Brammer
+permalink: /cv/
 ---
 
 <div class="skinny-row">
