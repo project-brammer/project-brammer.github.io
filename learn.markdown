@@ -7,7 +7,10 @@ layout: page
 
 <div class="skinny-row" markdown="1">
 <br><br>
-# Hey John! This is where we house all instructions on how to use your new website.
+
+<h1>
+Hey John! This is where we house all instructions on how to use your new website.
+</h1>
 <br>
 <hr>
 <br>
