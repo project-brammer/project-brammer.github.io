@@ -1,7 +1,8 @@
 ---
 title: learn
 date: 2016-11-05 22:04:00 Z
-layout: content-page
+Title: Learn.
+layout: default
 ---
 
 Hey John! This is where we house all instructions on how to use your new website.
