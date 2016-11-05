@@ -1,7 +1,7 @@
 ---
-layout: content-page
 title: CV | John Paul Brammer
-permalink: /cv/
+permalink: "/cv/"
+layout: content-page
 ---
 
 <div class="skinny-row">
