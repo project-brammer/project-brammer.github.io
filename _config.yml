@@ -1,27 +1,45 @@
+---
+title: Project Brammer.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+    permalink: "/work/:title/"
+defaults:
+- scope:
+    path: _work/
+    type: work
+  values:
+    layout: post
+    tags: []
+    title: 
+    hero: 
+    image: 
+    publisher: 
+    original: 
+    quote: 
 name: John Paul Brammer
 markdown: kramdown
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
 permalink: pretty
 baseurl: "/"
-url: "http://www.johnbrammer.com"
+url: http://www.johnbrammer.com
 twitter: jpbrammer
-description: Candid, passionate about issues that matter and humorous about things that don't. Absurd comedy mixed with astute observations.
-longform-description: Candid, passionate about issues that matter and humorous about things that don't. Absurd comedy mixed with astute observations. Lorem ipsum dolor sit amet, cum ne lorem moderatius definiebas, et vis vide sonet quodsi, vim eu viris conclusionemque. Vel id utinam liberavisse. Id voluptua ponderum comprehensam eos, mel fastidii explicari assentior ad. Ex harum aliquam petentium per, at eos dolorem platonem, virtute percipit 
-collections:
-  work:
-    output: true
-    permalink: /work/:title/
-
-defaults:
-  - scope:
-      path: '_work/'
-      type: work
-    values:
-      layout: post
-      tags: []
-      title:
-      hero:
-      image: 
-      publisher:
-      original:
-      quote:
+description: Candid, passionate about issues that matter and humorous about things
+  that don't. Absurd comedy mixed with astute observations.
+longform-description: Candid, passionate about issues that matter and humorous about
+  things that don't. Absurd comedy mixed with astute observations. Lorem ipsum dolor
+  sit amet, cum ne lorem moderatius definiebas, et vis vide sonet quodsi, vim eu viris
+  conclusionemque. Vel id utinam liberavisse. Id voluptua ponderum comprehensam eos,
+  mel fastidii explicari assentior ad. Ex harum aliquam petentium per, at eos dolorem
+  platonem, virtute percipit

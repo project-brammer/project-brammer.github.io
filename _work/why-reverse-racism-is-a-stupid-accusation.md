@@ -1,7 +1,8 @@
 ---
+title: Why 'reverse racism' is a stupid accusation
+tags:
+- politics
 layout: post
-tags: [politics]
-title:  "Why 'reverse racism' is a stupid accusation"
 featured: true
 feature-number: 2
 image: 2898.jpg

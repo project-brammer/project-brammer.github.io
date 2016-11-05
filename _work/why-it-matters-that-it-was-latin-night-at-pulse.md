@@ -1,10 +1,12 @@
 ---
+title: Why It Matters That It Was Latin Night at Pulse
+tags:
+- gender
 layout: post
-tags: [gender]
-title: "Why It Matters That It Was Latin Night at Pulse"
 image: 1606.jpg
-publisher: "slate"
-quote: "When I can look at them without crying, without feeling a sharp twinge in my gut, I think that’s how I’ll know that I’m OK again."
+publisher: slate
+quote: When I can look at them without crying, without feeling a sharp twinge in my
+  gut, I think that’s how I’ll know that I’m OK again.
 ---
 
 I can’t look at their faces. When I can look at them without crying, without feeling a sharp twinge in my gut, I think that’s how I’ll know that I’m OK again.
