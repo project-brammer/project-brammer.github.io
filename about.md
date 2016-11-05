@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: content-page
 ---
 
-<a href="{{site.file}}" class="about-header">
+<a href="{{ site.file }}" class="about-header">
     Download Media Kit <i class="fa fa-download" aria-hidden="true"></i>
 </a>
 
