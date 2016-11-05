@@ -50,6 +50,7 @@ defaults:
     values:
       layout: post
       tags: []
+<<<<<<< HEAD
       title: ""
       hero: ""
       image: ""
@@ -66,3 +67,11 @@ longform-description: Candid, passionate about issues that matter and humorous a
   mel fastidii explicari assentior ad. Ex harum aliquam petentium per, at eos dolorem
   platonem, virtute percipit
 >>>>>>> origin/master
+=======
+      title:
+      hero:
+      image: 
+      publisher:
+      original:
+      quote:
+>>>>>>> parent of 41f0f2f... SiteLeaf Preparation
