@@ -8,9 +8,9 @@ layout: page
 <div class="skinny-row" markdown="1">
 <br><br>
 
-<h1>
+<h2>
 Hey John! This is where we house all instructions on how to use your new website.
-</h1>
+</h2>
 <br>
 <hr>
 <br>
