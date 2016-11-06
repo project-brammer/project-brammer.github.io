@@ -2,9 +2,9 @@
 title: To the Latinos Who Can’t Speak Spanish
 tags:
 - race
-layout: post
-image: 4500.jpg
+image: "/uploads/4500.jpg"
 publisher: huffington
+layout: post
 ---
 
 “No hablo español.”
