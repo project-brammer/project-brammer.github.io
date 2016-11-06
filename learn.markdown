@@ -25,7 +25,7 @@ Your *Work* pages have several items that change the way they look, these items 
 
 * **image** – this is the image that will be used for the article background
 
-* **publisher** – this is the publication the article was originally on. I've added the logos of all the publications you mentioned in our original survey. **Note:** *you must only use the one word lowercase descriptor for the publication in order for this to work (i.e **guardian**, **vox**, **huffington**, slate, **buzzfeed**)*
+* **publisher** – this is the publication the article was originally on. I've added the logos of all the publications you mentioned in our original survey. **Note:** *you must only use the one word lowercase descriptor for the publication in order for this to work (i.e **guardian**, **vox**, **huffington**, **slate**, **buzzfeed**)*
 
 * **original** – this is the link to the original article
 
