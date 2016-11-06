@@ -2,11 +2,11 @@
 title: Backing for the wall spells the end of Republican decency
 tags:
 - politics
-layout: post
 featured: true
 feature-number: 3
-image: 5472.jpg
+image: "/uploads/5472.jpg"
 publisher: guardian
+layout: post
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
