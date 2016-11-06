@@ -31,4 +31,16 @@ Your *Work* pages have several items that change the way they look, these items 
 
 * **quote** – this is a quote of your choice that will: *1. show up on the sidebar of the article* and *2. show up as the body whenever somebody shares the article. (in the case of Twitter, it will show up as the tweet with the link and 'via @jpbrammer')*
 
-> this is a blockquote
+---
+
+### Updating your Site Settings
+
+Your site settings include:
+
+* **Twitter **– updating this will change your Twitter link and username everywhere on the site
+
+* **Description** – this is the short bio used in the footer and home page of your site
+
+* **Longform Description** – this is the text that will show up on the *About* page under the media-kit link
+
+* **File** – this is where you will upload the .zip file for your media-kit
