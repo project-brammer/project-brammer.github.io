@@ -30,3 +30,5 @@ Your *Work* pages have several items that change the way they look, these items 
 * **original** – this is the link to the original article
 
 * **quote** – this is a quote of your choice that will: *1. show up on the sidebar of the article* and *2. show up as the body whenever somebody shares the article. (in the case of Twitter, it will show up as the tweet with the link and 'via @jpbrammer')*
+
+> this is a blockquote
