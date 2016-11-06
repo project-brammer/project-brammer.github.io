@@ -23,7 +23,11 @@ Your *Work* pages have several items that change the way they look, these items 
 
 * **tags** – these are the categories of your articles (i.e Politics, Opinion, etc.)
 
-* **hero** – if you make this *true* then it will become the first article on the homepage
+* **hero** – if you set this to *true* then it will become the first article on the homepage
+
+* **featured** – if you set this to *true* then it will become one of the 4 articles on the home page
+
+* **featured-number** – make this a number from 1-4 to control where it will show up in the grid of 4 home page articles
 
 * **image** – this is the image that will be used for the article background
 
@@ -48,3 +52,12 @@ Your site settings include:
 * **Longform Description** – this is the text that will show up on the *About* page under the media-kit link
 
 * **File** – this is where you will upload the .zip file for your media-kit
+
+
+---
+
+### Video Walkthroughs
+
+##### Adding an article
+
+##### Adding a video
