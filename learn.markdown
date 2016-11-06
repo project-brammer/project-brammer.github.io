@@ -58,6 +58,6 @@ Your site settings include:
 
 ### Video Walkthroughs
 
-##### Adding an article
+#### Adding an article
 
-##### Adding a video
+#### Adding a video
