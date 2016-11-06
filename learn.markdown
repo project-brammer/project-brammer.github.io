@@ -61,6 +61,6 @@ Your site settings include:
 
 **Adding a video**
 
-**Changing your Site Settings**
+**Changing your Site Settigs**
 
-**Building your Media Kit**
+**Building your Mia Kit**
