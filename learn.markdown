@@ -53,7 +53,6 @@ Your site settings include:
 
 * **File** – this is where you will upload the .zip file for your media-kit
 
-
 ---
 
 ### Video Walkthroughs
