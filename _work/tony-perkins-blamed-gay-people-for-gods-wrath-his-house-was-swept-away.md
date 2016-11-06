@@ -2,11 +2,11 @@
 title: Tony Perkins blamed gay people for God's wrath. His house was swept away
 tags:
 - gender
-layout: post
 featured: true
 feature-number: 1
-image: 4500.jpg
+image: "/uploads/4500.jpg"
 publisher: guardian
+layout: post
 ---
 
 Religions around the world have interpreted natural phenomena as God’s will for as long as we’ve had gods and religions. But in God’s arsenal of punishments, perhaps none are as storied as the flood.
