@@ -29,47 +29,6 @@
     {% include header.html %}
 
     <div class="skinny-row" id="post-video-container">
-<!--         <div class="meta">
-          {% if page.publisher %}
-          <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
-                <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
-          </span>
-          {% endif %}
-          Category: <span>{% for tag in page.tags %}<a href="#" class="tags">{{ tag }}</a>{% endfor %}</span><br>Date: {{ page.date }}<br>
-          {% if page.original %}
-            <a href="{{ page.original }}" class="original-link" target="_blank">Original&#x2197;</a>
-          {% endif %}
-          <div class="share">
-            {% if page.quote %}
-              <div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }} </div>
-            {% endif %}
-            <a href="http://twitter.com/intent/tweet?text={{ page.quote }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="mailto:?subject=Check%20out%20'{{ page.title }}'%20by%20@jpbrammer&body={{ page.url | prepend: site.url }}%0D%0A%0D%0AArticle%20by%20John%20Paul%20Brammer%0D%0Ahttp://www.twitter.com/jpbrammer" class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/sharer/sharer.php
-     ?u={{ site.url | append: page.url | cgi_escape }}" class="facebook js-social-share" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          </div>
-        </div>
-
-        <div class="meta-mobile">
-          {% if page.publisher %}
-            <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
-                <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
-            </span>
-          {% endif %}
-          <br>Category: <span>{% for tag in page.tags %}<a href="#" class="tags">{{ tag }}</a>{% endfor %}</span><br>Date: {{ page.date }}<br>
-          {% if page.original %}
-            <a href="{{ page.original }}" class="original-link" target="_blank">Original&#x2197;</a>
-          {% endif %}
-          <div class="share">
-            {% if page.quote %}
-              <div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }} </div>
-            {% endif %}
-            <a href="http://twitter.com/intent/tweet?text={{ page.quote }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="mailto:?subject=Check%20out%20'{{ page.title }}'%20by%20@jpbrammer&body={{ page.url | prepend: site.url }}%0D%0A%0D%0AArticle%20by%20John%20Paul%20Brammer%0D%0Ahttp://www.twitter.com/jpbrammer" class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/sharer/sharer.php
-     ?u={{ site.url | append: page.url | cgi_escape }}" class="facebook js-social-share" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          </div>
-        </div> -->
         <div class="post-video">
           <div class='embed-container'>
             {{ page.video-link }}
