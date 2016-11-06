@@ -37,7 +37,7 @@ Your *Work* pages have several items that change the way they look, these items 
 
 Your site settings include:
 
-* **Twitter **– updating this will change your Twitter link and username everywhere on the site
+* **Twitter** – updating this will change your Twitter link and username everywhere on the site
 
 * **Description** – this is the short bio used in the footer and home page of your site
 
