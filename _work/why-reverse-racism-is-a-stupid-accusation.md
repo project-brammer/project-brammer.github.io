@@ -2,11 +2,11 @@
 title: Why 'reverse racism' is a stupid accusation
 tags:
 - politics
-layout: post
 featured: true
 feature-number: 2
-image: 2898.jpg
+image: "/uploads/2898.jpg"
 publisher: guardian
+layout: post
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
