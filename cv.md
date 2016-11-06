@@ -7,10 +7,10 @@ layout: content-page
 <div class="skinny-row">
 <div class="cv">
     <div class="full-header">
-        <p class="name">John Paul Brammer</p><p>Phone: <a href="Tel: 5807045528">580-704-5528</a> | Email: <a href="mailto:jpbrammer@gmail.com">jpbrammer@gmail.com</a> | Twitter: <a href="http://www.twitter.com/{{ site.twitter }}" target="_blank">@jpbrammer</a></p>
+        <p class="name">John Paul Brammer</p><p>Phone: <a href="Tel: 5807045528">580-704-5528</a> | Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> | Twitter: <a href="http://www.twitter.com/{{ site.twitter }}" target="_blank">@{{ site.twitter }}</a></p>
     </div>
     <div class="full-header-mobile">
-        <p class="name">John Paul Brammer</p><p>Phone: <a href="Tel: 5807045528">580-704-5528</a> <br>Email: <a href="mailto:jpbrammer@gmail.com">jpbrammer@gmail.com</a> <br>Twitter: <a href="http://www.twitter.com/{{ site.twitter }}" target="_blank">@jpbrammer</a></p>
+        <p class="name">John Paul Brammer</p><p>Phone: <a href="Tel: 5807045528">580-704-5528</a> <br>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> <br>Twitter: <a href="http://www.twitter.com/{{ site.twitter }}" target="_blank">@{{ site.twitter }}</a></p>
     </div>
     <div class="section-header">Experience</div>
     <div class="work-section">
