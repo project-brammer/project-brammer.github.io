@@ -17,7 +17,7 @@ Your admin area is where you will add work and edit all existing information. Th
 
 ### Updating & adding portfolio pieces
 
-Your Work pages have several items that change the way it looks, they are outlined below:
+Your *Work* pages have several items that change the way they look, these items are outlined below:
 
 * **tags** – these are the categories of your articles (i.e Politics, Opinion, etc.)
 
@@ -26,3 +26,7 @@ Your Work pages have several items that change the way it looks, they are outlin
 * **image** – this is the image that will be used for the article background
 
 * **publisher** – this is the publication the article was originally on. I've added the logos of all the publications you mentioned in our original survey. **Note:** *you must only use the one word lowercase descriptor for the publication in order for this to work (i.e **guardian**, **vox**, **huffington**, slate, **buzzfeed**)*
+
+* **original** – this is the link to the original article
+
+* **quote** – this is a quote of your choice that will: *1. show up on the sidebar of the article* and *2. show up as the body whenever somebody shares the article. (in the case of Twitter, it will show up as the tweet with the link and 'via @jpbrammer')*
