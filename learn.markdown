@@ -11,11 +11,13 @@ layout: skinny-content
 
 [Login to your Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collection)
 
-Your admin area is where you will add work and edit all existing information. The link above takes you directly to the work section of the page, where you will do most of your work.
+Your admin area is where you will add work and edit all existing information. The link above takes you directly to the work section of the page, where you will do most of your uploading.
 
 ---
 
 ### Updating & adding portfolio pieces
+
+[Go to Work Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/work)
 
 Your *Work* pages have several items that change the way they look, these items are outlined below:
 
@@ -34,6 +36,8 @@ Your *Work* pages have several items that change the way they look, these items 
 ---
 
 ### Updating your Site Settings
+
+[Go to Site Settings](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/edit?section=general)
 
 Your site settings include:
 
