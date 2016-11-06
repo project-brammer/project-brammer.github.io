@@ -5,7 +5,7 @@ permalink: "/learn/"
 layout: skinny-content
 ---
 
-## Hey John! This is where we house all instructions on how to use your new website.
+## Hey John! This is where we house all instructions for using your new website.
 
 ---
 
