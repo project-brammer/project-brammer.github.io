@@ -2,11 +2,11 @@
 title: The Republican platform is extremist – and so is anyone who supports it
 tags:
 - politics
-layout: post
 featured: true
 feature-number: 4
-image: 45002.jpg
+image: "/uploads/45002.jpg"
 publisher: guardian
+layout: post
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
