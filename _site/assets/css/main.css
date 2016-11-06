@@ -387,6 +387,35 @@ textarea {
   max-width: 90%;
   margin: 0 auto; }
 
+.general-margins {
+  margin-top: 48px;
+  margin-bottom: 48px; }
+  .general-margins p {
+    font-size: 16px;
+    margin-bottom: 0; }
+    .general-margins p a {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      border: 1px solid #00BFA5;
+      margin-bottom: 16px;
+      text-decoration: none;
+      -webkit-transition: all .1s ease-in-out;
+      transition: all .1s ease-in-out; }
+      .general-margins p a:hover {
+        background-color: #00BFA5;
+        color: #FFF; }
+    .general-margins p strong {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      text-transform: none; }
+  @media screen and (max-width: 640px) {
+    .general-margins {
+      margin: 0; } }
+
 .site-content {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -585,6 +614,12 @@ hr {
   clear: both;
   margin: 10px 0 30px;
   height: 0; }
+
+blockquote {
+  border-left: 8px solid #00BFA5;
+  padding-left: 8px;
+  position: relative;
+  left: -16px; }
 
 .flex-video {
   height: 0;

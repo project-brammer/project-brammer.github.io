@@ -1,3 +1,8 @@
+
+
+$john-green: #00BFA5
+
+
 *
     box-sizing: border-box
     font-feature-settings: "liga" 1, "kern" 1
@@ -25,12 +30,30 @@
     margin: 0 auto
 
 .general-margins
-    margin: 48px 0
+    margin-top: 48px
+    margin-bottom: 48px
+    p
+        font-size: 16px
+        margin-bottom: 0
+        a
+            font-family: 'Source Sans Pro', sans-serif
+            font-weight: bold
+            text-transform: uppercase
+            padding: 5px 10px
+            border-radius: 5px
+            border: 1px solid $john-green
+            margin-bottom: 16px
+            text-decoration: none
+            transition: all .1s ease-in-out
+            &:hover
+                background-color: $john-green
+                color: #FFF
+        strong
+            font-family: 'Source Sans Pro', sans-serif
+            font-weight: bold
+            text-transform: none
     @media screen and (max-width: 640px)
         margin: 0
-
-
-$john-green: #00BFA5
 
 .site-content
     margin-top: 80px
