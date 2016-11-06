@@ -9,7 +9,7 @@ layout: skinny-content
 
 ---
 
-[Login to your Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collection/work){:target="_blank"}
+[Login to your Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/work){:target="_blank"}
 
 Your admin area is where you will add work and edit all existing information. The link above takes you directly to the work section of the page, where you will do most of your uploading.
 
