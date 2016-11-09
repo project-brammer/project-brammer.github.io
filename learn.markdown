@@ -63,4 +63,4 @@ Your site settings include:
 
 **Changing your Site Settigs**
 
-**Building your Mia Kit**
+**Building your Media Kit**
