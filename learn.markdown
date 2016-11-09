@@ -57,9 +57,9 @@ Your site settings include:
 
 ### Video Walkthroughs
 
-**Adding an article**
+**Adding an Article**
 
-**Adding a video**
+**Adding a Video**
 
 **Changing your Site Settings**
 
