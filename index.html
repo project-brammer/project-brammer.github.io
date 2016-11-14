@@ -23,9 +23,11 @@ layout: default
                     <h1>
                     {{ post.title }}
                     </h1>
+                    {% if post.publisher %}
                     <div class="meta-publisher">
                         <img src="/assets/img/{{ post.publisher | append: '.svg' }}" alt="{{ post.publisher }}">
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </a>
