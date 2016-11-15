@@ -3,6 +3,7 @@ title: To the Latinos Who Can’t Speak Spanish
 date: 2016-11-08 15:39:00 Z
 tags:
 - race
+position: 7
 image: "/uploads/4500.jpg"
 publisher: huffington
 layout: post
