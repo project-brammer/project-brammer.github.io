@@ -14,19 +14,18 @@ collections:
     permalink: "/work/:title/"
     layout: post
 defaults:
-  - 
-    scope:
-      path: "work"
-      type: "posts"
-    values:
-      layout: "post"
-      hero:
-      featured:
-      feature-number:
-      image:
-      publisher:
-      original:
-      quote:
+- scope:
+    path: work
+    type: posts
+  values:
+    layout: post
+    hero: 
+    featured: 
+    feature-number: 
+    image: 
+    publisher: 
+    original: 
+    quote: 
 name: John Paul Brammer
 markdown: kramdown
 exclude:
