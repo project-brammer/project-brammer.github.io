@@ -5,7 +5,7 @@ tags:
 - politics
 - race
 - opinion
-position: 1
+position: 10
 image: https://i.guim.co.uk/img/media/a54742161aed6ebe52426b599738827160c3782c/0_135_4096_2457/master/4096.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=07c1da7761219f3861a9d88f0911431b
 publisher: guardian
 original: https://www.theguardian.com/commentisfree/2016/nov/07/donald-trump-presidency-america-endure-latinos-experience
