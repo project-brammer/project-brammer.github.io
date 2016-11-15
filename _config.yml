@@ -10,19 +10,18 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - 
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      hero: 
-      featured: 
-      feature-number: 
-      image: 
-      publisher: 
-      original: 
-      quote: 
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    hero: 
+    featured: 
+    feature-number: 
+    image: 
+    publisher: 
+    original: 
+    quote: 
 name: John Paul Brammer
 markdown: kramdown
 exclude:
