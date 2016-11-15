@@ -31,7 +31,9 @@
         <div class="meta-stick">
           <div class="meta">
             <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
-                  <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
+              {% if page.publisher %}
+                <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
+              {% endif %}
               </span><br>Category: <span>{% for tag in page.tags %}<a href="#" class="tags">{{ tag }}</a>{% endfor %}</span><br>Date: {{ page.date }}<br>
             {% if page.original %}
               <a href="{{ page.original }}" class="original-link" target="_blank">Original&#x2197;</a>
