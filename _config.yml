@@ -12,6 +12,7 @@ collections:
     title: Work
     output: true
     permalink: "/work/:title/"
+    layout: post
 defaults:
 - scope:
     path: _work/
