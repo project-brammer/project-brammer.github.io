@@ -1385,10 +1385,7 @@ blockquote {
   .footer-cv:hover {
     background-color: #00a68f;
     -webkit-box-shadow: 0 7px 15px rgba(0, 191, 165, 0.3);
-            box-shadow: 0 7px 15px rgba(0, 191, 165, 0.3);
-    -webkit-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-            transform: translateY(-10px); }
+            box-shadow: 0 7px 15px rgba(0, 191, 165, 0.3); }
   .footer-cv h2 {
     color: #FFF;
     line-height: default;

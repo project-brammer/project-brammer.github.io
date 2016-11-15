@@ -4,9 +4,11 @@ permalink: "/about/"
 layout: content-page
 ---
 
+{% if site.file %}
 <a href="{{ site.file }}" class="about-header">
     Download Media Kit <i class="fa fa-download" aria-hidden="true"></i>
 </a>
+{% endif %}
 
 <div class="skinny-row">
     <div class="longform-description">
