@@ -1,6 +1,8 @@
 ---
 title: I already had body dysmorphic disorder. Then my skin started changing color.
 date: 2016-11-15 18:34:00 Z
+tags:
+- health
 image: https://cdn0.vox-cdn.com/thumbor/o1oFbfqVIR3K5pS5jhx4MSxt2bE=/0x556:4842x2708/1350x600/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/47528287/shutterstock_145649093.0.0.jpg
 publisher: vox
 original: http://www.vox.com/2015/10/28/9617554/body-dysmorphic-disorder
