@@ -9,6 +9,7 @@ quote: The Latino vote' didn't overwhelm Trump, because we're not all the same
 image: https://i.guim.co.uk/img/media/b2a5b2a2b7e42facc177e4254c15454870f9037b/0_42_5178_3107/master/5178.jpg
 publisher: guardian
 original: https://www.theguardian.com/commentisfree/2016/nov/09/the-latino-vote-didnt-overwhelm-trump-because-were-not-all-the-same
+layout: post
 ---
 
 > A surprising proportion of Latinos – around 29% – supported Trump. The notion that this incredibly diverse community thinks as a ‘bloc’ needs to be abandoned
