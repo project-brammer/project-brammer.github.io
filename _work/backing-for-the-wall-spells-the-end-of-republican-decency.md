@@ -1,6 +1,6 @@
 ---
 title: Backing for the wall spells the end of Republican decency
-date: 2016-11-03 15:40:00 Z
+date: 2016-11-03
 tags:
 - politics
 position: 1

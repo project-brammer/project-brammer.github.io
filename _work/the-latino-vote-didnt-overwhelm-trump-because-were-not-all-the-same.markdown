@@ -1,6 +1,6 @@
 ---
 title: The Latino vote' didn't overwhelm Trump, because we're not all the same
-date: 2016-11-15 14:07:00 Z
+date: 2016-11-15
 tags:
 - race
 - politics

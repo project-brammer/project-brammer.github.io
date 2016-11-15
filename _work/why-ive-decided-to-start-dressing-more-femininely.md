@@ -1,6 +1,6 @@
 ---
 title: Why I’ve Decided To Start Dressing More Femininely
-date: 2016-11-06 15:40:00 Z
+date: 2016-11-06
 tags:
 - gender
 position: 2

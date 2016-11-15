@@ -1,6 +1,6 @@
 ---
 title: Why 'reverse racism' is a stupid accusation
-date: 2016-11-14 15:37:00 Z
+date: 2016-11-14
 tags:
 - politics
 position: 0

@@ -1,6 +1,6 @@
 ---
 title: Give Blood to Help Orlando Nightclub Victims
-date: 2016-11-07 15:40:00 Z
+date: 2016-11-07
 tags:
 - politics
 - opinion
