@@ -1,7 +1,7 @@
 ---
 title: I was so ashamed of my body that I locked myself in my apartment for days.
   Here’s why.
-date: 2016-11-13
+date: 2016-11-13 00:00:00 Z
 tags:
 - gender
 position: 3

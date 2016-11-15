@@ -1,6 +1,6 @@
 ---
 title: To the Latinos Who Can’t Speak Spanish
-date: 2016-11-08
+date: 2016-11-08 00:00:00 Z
 tags:
 - race
 position: 8

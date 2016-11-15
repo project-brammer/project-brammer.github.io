@@ -1,6 +1,6 @@
 ---
 title: The Republican platform is extremist – and so is anyone who supports it
-date: 2016-11-09
+date: 2016-11-09 00:00:00 Z
 tags:
 - politics
 position: 7

@@ -1,6 +1,6 @@
 ---
 title: 'A match made in hell: Donald Trump, Mike Pence, and the bigots'
-date: 2016-11-10
+date: 2016-11-10 00:00:00 Z
 tags:
 - politics
 - opinion
