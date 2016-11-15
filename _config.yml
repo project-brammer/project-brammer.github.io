@@ -16,8 +16,8 @@ collections:
 defaults:
   - 
     scope:
-      path: "work"
-      type: "posts"
+      path: "_work"
+      type: "works"
     values:
       layout: "post"
       hero:
