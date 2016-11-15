@@ -6,7 +6,6 @@ collections:
     title: Posts
     output: true
     layout: post
-    permalink: /work/:title/
   uploads:
     title: Uploads
     output: true
