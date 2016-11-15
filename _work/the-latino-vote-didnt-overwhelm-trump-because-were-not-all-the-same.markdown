@@ -40,4 +40,4 @@ All this is to say, there probably isn’t a Latino sleeping giant waiting to pr
 
 What we have on our hands instead is a complicated demographic comprising men, women, immigrants, natural-born citizens, the college-educated, farmers, conservatives and progressives that is consistently thrown under the single umbrella of “Latino vote”, in a way that simply doesn’t happen for white people.
 
-That was the old playbook, and it ought to be considered obsolete after this election. The rules have changed, the polls proved useless, and a left that is not ready to adapt to these changes and will ultimately prove too weak to combat Trumpism and whatever comes after it.
+That was the old playbook, and it ought to be considered obsolete after this election. The rules have changed, the polls proved useless, and a left that is not ready to adapt to these changes and will ultimately prove too weak to combat Trumpism and whatever comes after it. 
