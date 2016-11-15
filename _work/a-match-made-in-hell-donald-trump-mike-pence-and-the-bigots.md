@@ -4,7 +4,7 @@ date: 2016-11-10 15:38:00 Z
 tags:
 - politics
 - opinion
-position: 6
+position: 8
 hero: true
 image: "/uploads/trump.jpg"
 publisher: guardian

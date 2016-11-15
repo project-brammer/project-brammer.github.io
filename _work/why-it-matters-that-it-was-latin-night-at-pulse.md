@@ -3,7 +3,7 @@ title: Why It Matters That It Was Latin Night at Pulse
 date: 2016-11-11 15:37:00 Z
 tags:
 - gender
-position: 5
+position: 7
 image: "/uploads/1606.jpg"
 publisher: slate
 quote: When I can look at them without crying, without feeling a sharp twinge in my
