@@ -62,22 +62,23 @@ layout: page
 
 <div class="row">
   <div class="posts">
-    {% for post in site.work reverse %}
-      <a href="{{ post.url }}" class="post {{ post.tags | join: " "}} {{ post.publisher }}" style="background-image: url({{ post.image }})">
-        {% if post.speaking %}
+    {% assign work = site.work | sort:"date" %}
+    {% for work in site.work %}
+      <a href="{{ work.url }}" class="post {{ work.tags | join: " "}} {{ work.publisher }}" style="background-image: url({{ work.image }})">
+        {% if work.speaking %}
             <i class="fa fa-microphone" aria-hidden="true"></i>
         {% else %}
             <i class="fa fa-file-text" aria-hidden="true"></i>
         {% endif %}
             <div class="post-info">
-                {% if post.tags %}
-                <span>{% for tag in post.tags %}<p class="tags">{{ tag }}</p>{% endfor %}</span>
+                {% if work.tags %}
+                <span>{% for tag in work.tags %}<p class="tags">{{ tag }}</p>{% endfor %}</span>
                 {% endif %}
-                <h2>{{ post.title }}</h2>
+                <h2>{{ work.title }}</h2>
             </div>
-        {% if post.publisher %}
+        {% if work.publisher %}
             <div class="meta-publisher">
-                <img src="/assets/img/{{ post.publisher | append: '.svg' }}" alt="{{ post.publisher }}">
+                <img src="/assets/img/{{ work.publisher | append: '.svg' }}" alt="{{ work.publisher }}">
             </div> 
         {% endif %}
       </a>
