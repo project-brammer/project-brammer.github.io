@@ -62,7 +62,6 @@ layout: page
 
 <div class="row">
   <div class="posts">
-    {% assign sorted = (site.work | sort: 'date') | reverse %}
     {% for post in site.work %}
       <a href="{{ post.url }}" class="post {{ post.tags | join: " "}} {{ post.publisher }}" style="background-image: url({{ post.image }})">
         {% if post.speaking %}
