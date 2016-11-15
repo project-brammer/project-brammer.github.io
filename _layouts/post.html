@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="meta-mobile">
-          <span class="tags">{% for tag in page.tags %}{{ tag }} | {% endfor %}</span><br>Date: {{ page.date | date: '%B %d, %Y' }}<br><br>
+          <span class="tags">{% for tag in page.tags %}{{ tag }} | {% endfor %}</span><br>{% if page.date %}Date: {{ page.date | date: '%B %d, %Y' }}{% endif %}<br><br>
             <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
               {% if page.publisher %}
                 <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
@@ -73,8 +73,10 @@
             <div class="share">
               {% if page.quote %}
                 <div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }} </div>
+                <a href="http://twitter.com/intent/tweet?text={{ page.quote | append: '>' }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              {% else %}
+                <a href="http://twitter.com/intent/tweet?text='{{ page.title }}'+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               {% endif %}
-              <a href="http://twitter.com/intent/tweet?text={{ page.quote }}+{{ site.url | append: page.url | cgi_escape }}&via=jpbrammer" class="twitter js-social-share" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a href="mailto:?subject=Check%20out%20'{{ page.title }}'%20by%20@jpbrammer&body={{ page.url | prepend: site.url }}%0D%0A%0D%0AArticle%20by%20John%20Paul%20Brammer%0D%0Ahttp://www.twitter.com/jpbrammer" class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
               <a href="https://www.facebook.com/sharer/sharer.php
                ?u={{ site.url | append: page.url | cgi_escape }}" class="facebook js-social-share" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
