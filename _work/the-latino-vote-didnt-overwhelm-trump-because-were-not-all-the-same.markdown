@@ -5,7 +5,7 @@ tags:
 - race
 - politics
 - opinion
-position: 2
+position: 1
 quote: The Latino vote' didn't overwhelm Trump, because we're not all the same
 image: https://i.guim.co.uk/img/media/b2a5b2a2b7e42facc177e4254c15454870f9037b/0_42_5178_3107/master/5178.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=04da70329d9020adbe545a71b7afd85e
 publisher: guardian
