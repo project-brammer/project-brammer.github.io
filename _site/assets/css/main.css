@@ -616,10 +616,19 @@ hr {
   height: 0; }
 
 blockquote {
-  border-left: 8px solid #00BFA5;
-  padding-left: 8px;
-  position: relative;
-  left: -16px; }
+  background-color: #DDD;
+  color: #222;
+  border-left: 5px solid #00BFA5;
+  padding: 2em;
+  margin: 0;
+  margin-bottom: 50px;
+  font-style: oblique;
+  -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2); }
+  blockquote p {
+    font-size: 2em;
+    line-height: 1.7em;
+    margin: 0; }
 
 .flex-video {
   height: 0;
@@ -1488,39 +1497,41 @@ blockquote {
     .meta-mobile .meta-publisher img {
       width: auto;
       height: 10px; }
+  .meta-mobile .original-link {
+    margin-top: 0;
+    margin-bottom: 20px; }
   .meta-mobile .quote {
     font-size: 14px;
     line-height: 2em;
     color: #222;
     margin: 16px 0;
     text-transform: none;
-    padding-right: 32px; }
+    padding-right: 32px;
+    position: relative; }
     .meta-mobile .quote i {
-      color: #00BFA5; }
+      color: rgba(0, 0, 0, 0.1);
+      font-size: 64px;
+      display: block;
+      position: absolute;
+      left: -8px;
+      top: -10px; }
+  .meta-mobile hr {
+    margin: 0 0 20px 0; }
   .meta-mobile p, .meta-mobile .tags {
     line-height: 2em;
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     display: inline; }
-    .meta-mobile p:last-child:after, .meta-mobile .tags:last-child:after {
-      content: ""; }
-    .meta-mobile p:after, .meta-mobile .tags:after {
-      content: ", "; }
   .meta-mobile .tags {
-    font-family: 'Georgia', serif;
     background-color: transparent;
     padding: 0;
     color: #222;
-    text-transform: capitalize;
-    letter-spacing: normal;
-    color: #00BFA5;
+    text-transform: uppercase;
     -webkit-transition: none;
     transition: none;
+    letter-spacing: 0.2em;
+    font-size: 10px;
     font-weight: 400; }
-    .meta-mobile .tags:hover {
-      background-color: transparent;
-      color: #00BFA5;
-      text-decoration: underline; }
   .meta-mobile a {
     font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
@@ -1573,20 +1584,17 @@ blockquote {
   position: fixed; }
 
 .meta {
-  display: inline-block;
-  border-right: solid #00BFA5 4px;
+  display: block;
   max-width: 300px;
-  width: 300px;
-  float: left;
   padding: 16px;
-  padding-left: 0;
   margin-right: 48px;
   margin-bottom: 0;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   text-transform: capitalize;
   font-size: .875em;
-  position: absolute; }
+  position: absolute;
+  border: 1px solid #00BFA5; }
   @media screen and (max-width: 960px) {
     .meta {
       display: none; } }
@@ -1596,43 +1604,47 @@ blockquote {
     padding: 8px 16px 6px 16px;
     display: inline-block;
     margin-bottom: 8px;
-    line-height: default; }
+    line-height: default;
+    clear: both; }
     .meta .meta-publisher img {
       width: auto;
       height: 10px; }
+  .meta .original-link {
+    margin-top: 0;
+    margin-bottom: 20px; }
+  .meta hr {
+    margin: 0 auto; }
   .meta .quote {
-    font-size: 14px;
-    line-height: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
     color: #222;
     margin: 16px 0;
     text-transform: none;
-    padding-right: 32px; }
+    padding-right: 32px;
+    position: relative;
+    font-style: oblique; }
     .meta .quote i {
-      color: #00BFA5; }
+      color: rgba(0, 0, 0, 0.1);
+      font-size: 64px;
+      display: block;
+      position: absolute;
+      left: -8px;
+      top: -10px; }
   .meta p, .meta .tags {
     line-height: 2em;
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     display: inline; }
-    .meta p:last-child:after, .meta .tags:last-child:after {
-      content: ""; }
-    .meta p:after, .meta .tags:after {
-      content: ", "; }
   .meta .tags {
-    font-family: 'Georgia', serif;
     background-color: transparent;
     padding: 0;
     color: #222;
-    text-transform: capitalize;
-    letter-spacing: normal;
-    color: #00BFA5;
+    text-transform: uppercase;
     -webkit-transition: none;
     transition: none;
+    letter-spacing: 0.2em;
+    font-size: 10px;
     font-weight: 400; }
-    .meta .tags:hover {
-      background-color: transparent;
-      color: #00BFA5;
-      text-decoration: underline; }
   .meta a {
     font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
@@ -1684,7 +1696,7 @@ blockquote {
         line-height: 24px; } }
 
 .post-header {
-  margin: 0 0 64px 0; }
+  margin: 0 0 50px 0; }
   .post-header h2 {
     font-size: 52px;
     font-size: 4vw;

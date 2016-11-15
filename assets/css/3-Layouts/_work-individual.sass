@@ -39,39 +39,40 @@
         img
             width: auto
             height: 10px
+    .original-link
+        margin-top: 0
+        margin-bottom: 20px
     .quote
         i
-            color: $john-green
+            color: rgba(black, 0.1)
+            font-size: 64px
+            display: block
+            position: absolute
+            left: -8px
+            top: -10px
         font-size: 14px
         line-height: 2em
         color: #222
         margin: 16px 0
         text-transform: none
         padding-right: 32px
-
+        position: relative
+    hr
+        margin: 0 0 20px 0
     p, .tags
         line-height: 2em
         font-family: 'Source Sans Pro', sans-serif
         position: relative
         display: inline
-        &:last-child:after
-            content: ""
-        &:after
-            content: ", "
     .tags
-        font-family: 'Georgia', serif
         background-color: transparent
         padding: 0
         color: #222
-        text-transform: capitalize
-        letter-spacing: normal
-        color: $john-green
+        text-transform: uppercase
         transition: none
+        letter-spacing: 0.2em
+        font-size: 10px
         font-weight: 400
-        &:hover
-            background-color: transparent
-            color: $john-green
-            text-decoration: underline
     a
         font-family: 'Source Sans Pro', sans-serif
         display: inline-block
@@ -120,20 +121,16 @@
 .meta-sticky
     position: fixed
 .meta
-    display: inline-block
-    border-right: solid $john-green 4px
+    display: block
     max-width: 300px
-    width: 300px
-    float: left
     padding: 16px
-    padding-left: 0
     margin-right: 48px
     margin-bottom: 0
     transition: all .3s ease
     text-transform: capitalize
     font-size: .875em
     position: absolute
-    // height: 400px
+    border: 1px solid $john-green
     @media screen and (max-width: 960px)
         display: none
     .meta-publisher
@@ -143,42 +140,46 @@
         display: inline-block
         margin-bottom: 8px
         line-height: default
+        clear: both
         img
             width: auto
             height: 10px
+    .original-link
+        margin-top: 0
+        margin-bottom: 20px
+    hr
+        margin: 0 auto
     .quote
         i
-            color: $john-green
-        font-size: 14px
-        line-height: 2em
+            color: rgba(black, 0.1)
+            font-size: 64px
+            display: block
+            position: absolute
+            left: -8px
+            top: -10px
+        font-family: 'Source Sans Pro', sans-serif
+        font-size: 16px
         color: #222
         margin: 16px 0
         text-transform: none
         padding-right: 32px
+        position: relative
+        font-style: oblique
 
     p, .tags
         line-height: 2em
         font-family: 'Source Sans Pro', sans-serif
         position: relative
         display: inline
-        &:last-child:after
-            content: ""
-        &:after
-            content: ", "
     .tags
-        font-family: 'Georgia', serif
         background-color: transparent
         padding: 0
         color: #222
-        text-transform: capitalize
-        letter-spacing: normal
-        color: $john-green
+        text-transform: uppercase
         transition: none
+        letter-spacing: 0.2em
+        font-size: 10px
         font-weight: 400
-        &:hover
-            background-color: transparent
-            color: $john-green
-            text-decoration: underline
     a
         font-family: 'Source Sans Pro', sans-serif
         display: inline-block
@@ -229,7 +230,7 @@
             line-height: 24px
 
 .post-header
-    margin: 0 0 64px 0
+    margin: 0 0 50px 0
     h2
         +responsive-type(4vw, 32px, 6vw, 52px)
         font-weight: 800

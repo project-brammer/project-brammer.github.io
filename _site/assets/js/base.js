@@ -4,6 +4,7 @@ $(document).ready(function() {
   if ( $('.meta-stick').is(":visible")){
     stickyMeta();
   }
+  $('.post a').attr('target', '_blank').attr('title','This link will open in a new window.');
   socialShare();
   headerScroll();
   filterButtons();
