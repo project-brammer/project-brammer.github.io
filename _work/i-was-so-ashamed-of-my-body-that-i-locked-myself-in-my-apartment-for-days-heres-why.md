@@ -4,7 +4,7 @@ title: I was so ashamed of my body that I locked myself in my apartment for days
 date: 2016-11-13 15:37:00 Z
 tags:
 - gender
-position: 4
+position: 3
 image: "/uploads/Drone-Design-Illo.gif"
 publisher: vox
 layout: post
