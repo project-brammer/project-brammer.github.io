@@ -22,6 +22,7 @@ defaults:
     publisher: 
     original: 
     quote: 
+    permalink: "/work/:title/"
 name: John Paul Brammer
 markdown: kramdown
 exclude:
