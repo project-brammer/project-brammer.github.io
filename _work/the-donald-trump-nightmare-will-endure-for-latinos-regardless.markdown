@@ -1,6 +1,6 @@
 ---
 title: The Donald Trump nightmare will endure for Latinos regardless
-date: 2016-11-15
+date: 2016-11-15 00:00:00 Z
 tags:
 - politics
 - race

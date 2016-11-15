@@ -1,6 +1,6 @@
 ---
 title: Why It Matters That It Was Latin Night at Pulse
-date: 2016-11-11
+date: 2016-11-11 00:00:00 Z
 tags:
 - gender
 position: 5

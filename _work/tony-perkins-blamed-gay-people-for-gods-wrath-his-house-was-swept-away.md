@@ -1,6 +1,6 @@
 ---
 title: Tony Perkins blamed gay people for God's wrath. His house was swept away
-date: 2016-11-12
+date: 2016-11-12 00:00:00 Z
 tags:
 - gender
 position: 4
