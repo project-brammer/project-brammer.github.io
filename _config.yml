@@ -15,15 +15,15 @@ defaults:
     scope:
         path: _work/
         type: work
-      values:
-        layout: post
-        tags: []
-        title: ''
-        hero: ''
-        image: ''
-        publisher: ''
-        original: ''
-        quote: ''
+    values:
+      layout: post
+      tags: []
+      title: ''
+      hero: ''
+      image: ''
+      publisher: ''
+      original: ''
+      quote: ''
 name: John Paul Brammer
 markdown: kramdown
 exclude:
