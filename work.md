@@ -23,7 +23,7 @@ layout: page
 {% endfor %}
 
 {% assign rawpublishers = "" %}
-{% for post in site.work %}
+{% for post in site.posts %}
     {% assign tpublishers = post.publisher | join:'|' | append:'|' %}
     {% assign rawpublishers = rawpublishers | append:tpublishers %}
 {% endfor %}
