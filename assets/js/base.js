@@ -2,7 +2,8 @@ $(document).ready(function() {
   $('.hero-post-link, .featured-post, .post').Lazy({
     effect: "fadeIn",
     effectTime: 300,
-    threshold: 0
+    threshold: 0,
+    placeholder: "data:/assets/img/loader.gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
   });
   $('.menu-button').sidr();
   $('.close-button').sidr('close', 'sidr-main');
