@@ -1438,6 +1438,9 @@ blockquote {
     -webkit-box-shadow: 0 7px 15px rgba(0, 191, 165, 0.3);
             box-shadow: 0 7px 15px rgba(0, 191, 165, 0.3);
     text-decoration: none; }
+  @media screen and (max-width: 640px) {
+    .about-header {
+      font-size: 1.4em; } }
 
 .longform-description {
   font-size: 1.5em;
