@@ -11,15 +11,15 @@ layout: skinny-content
 
 [Login to your Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/work){:target="_blank"}
 
-Your admin area is where you will add work and edit all existing information. The link above takes you directly to the work section of the page, where you will do most of your uploading.
+Your admin area is where you will add work and edit all existing information. The link above takes you directly to the posts section of the page, where you will do most of your uploading.
 
 ---
 
 ### Updating & adding portfolio pieces
 
-[Go to Work Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/work){:target="_blank"}
+[Go to Post Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/work){:target="_blank"}
 
-Your *Work* pages have several items that change the way they look, these items are outlined below:
+Your *Post* pages have several items that change the way they look, these items are outlined below:
 
 * **tags** – these are the categories of your articles (i.e Politics, Opinion, etc.)
 
@@ -27,7 +27,7 @@ Your *Work* pages have several items that change the way they look, these items 
 
 * **featured** – if you set this to *true* then it will become one of the 4 articles on the home page
 
-* **featured-number** – make this a number from 1-4 to control where it will show up in the grid of 4 home page articles
+* **feature-number** – make this a number from 1-4 to control where it will show up in the grid of 4 home page articles
 
 * **image** – this is the image that will be used for the article background
 
