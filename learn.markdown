@@ -67,6 +67,6 @@ Your site settings include:
 
 **Adding a Video**
 
-**Changing your Site Settings**
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-**Building your Media Kit**
+**Site Settings & Building your Media Kit**
