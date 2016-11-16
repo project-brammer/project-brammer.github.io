@@ -67,9 +67,13 @@ Your site settings include:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
 
+<br><br>
+
 **Adding a Video**
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/MSiAUeIpZuI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
 
 **Site Settings & Building your Media Kit**
 
