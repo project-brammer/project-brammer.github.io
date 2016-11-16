@@ -1077,7 +1077,7 @@ blockquote {
 .featured-post, .twitterfeed {
   width: -webkit-calc(50% - 24px);
   width: calc(50% - 24px);
-  height: 336px;
+  height: 400px;
   margin-bottom: 48px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -1217,7 +1217,7 @@ blockquote {
           order: 3;
   padding: 32px;
   border: solid #00BFA5 1px;
-  height: 720px;
+  height: 848px;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.1); }
 
@@ -1513,7 +1513,7 @@ blockquote {
     position: relative; }
     .meta-mobile .quote i {
       color: rgba(0, 0, 0, 0.1);
-      font-size: 64px;
+      font-size: 36px;
       display: block;
       position: absolute;
       left: -8px;
@@ -1628,7 +1628,7 @@ blockquote {
     font-style: oblique; }
     .meta .quote i {
       color: rgba(0, 0, 0, 0.1);
-      font-size: 64px;
+      font-size: 36px;
       display: block;
       position: absolute;
       left: -8px;
