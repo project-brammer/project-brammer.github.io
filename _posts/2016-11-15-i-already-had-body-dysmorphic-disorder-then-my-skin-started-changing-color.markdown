@@ -3,7 +3,7 @@ title: I already had body dysmorphic disorder. Then my skin started changing col
 date: 2016-11-15 18:34:00 Z
 tags:
 - health
-image: http://www.ihavevitiligo.com/wp-content/uploads/2015/02/Vitiligo.jpg
+image: http://cdn1.medicalnewstoday.com/content/images/articles/245081-vitiligo-on-hands.jpg
 publisher: vox
 original: http://www.vox.com/2015/10/28/9617554/body-dysmorphic-disorder
 quote: One percent of Americans have vitiligo, the skin disorder made famous by Michael
