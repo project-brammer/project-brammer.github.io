@@ -63,9 +63,7 @@ Your site settings include:
 
 ### Video Walkthroughs
 
-**Adding an Article**
-
-<small> 8 Minutes</small>
+**Adding an Article **<small> 8 Minutes</small>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
 
