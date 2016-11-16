@@ -854,14 +854,14 @@ blockquote {
     #home-hero {
       background-position: top center; } }
   #home-hero .description {
-    width: 50%;
+    width: 60%;
     font-size: 64px;
-    font-size: 3.5vw;
+    font-size: 4.8vw;
     line-height: 1.3em; }
-    @media (max-width: 914.28571px) {
+    @media (max-width: 666.66667px) {
       #home-hero .description {
         font-size: 32px; } }
-    @media (min-width: 1828.57143px) {
+    @media (min-width: 1333.33333px) {
       #home-hero .description {
         font-size: 64px; } }
     @media screen and (max-width: 960px) {
