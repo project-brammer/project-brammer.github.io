@@ -4,7 +4,7 @@ layout: page
 ---
 
 {% assign rawtags = "" %}
-{% for post in site.work %}
+{% for post in site.posts %}
     {% assign ttags = post.tags | join:'|' | append:'|' %}
     {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
