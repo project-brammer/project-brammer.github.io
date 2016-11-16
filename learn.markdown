@@ -67,6 +67,4 @@ Your site settings include:
 
 **Adding a Video**
 
-**Changing your Site Settings**
-
-**Building your Media Kit**
+**Site Settings & Building your Media Kit**
