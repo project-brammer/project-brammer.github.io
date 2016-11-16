@@ -64,7 +64,7 @@ layout: page
   <div class="posts">
     {% for post in site.posts %}
       <a href="{{ post.url }}" class="post {{ post.tags | join: " "}} {{ post.publisher }}" style="background-image: url({{ post.image }})">
-        {% if post.speaking %}
+        {% if post.video %}
             <i class="fa fa-microphone" aria-hidden="true"></i>
         {% else %}
             <i class="fa fa-file-text" aria-hidden="true"></i>

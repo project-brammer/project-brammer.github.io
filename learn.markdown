@@ -41,7 +41,7 @@ Your *Post* pages have several items that change the way they look, these items 
 
 * **video** – if you set this to *true* then it will have a speaking icon in the work page
 
-[Click Here for Youtube Thumbnail Grabber](http://www.get-youtube-thumbnail.com/){:target="_blank"}
+[Click Here for Youtube Thumbnail Grabber](https://boingboing.net/features/getthumbs.html){:target="_blank"}
 
 ---
 
