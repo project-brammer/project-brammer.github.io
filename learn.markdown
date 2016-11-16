@@ -65,6 +65,8 @@ Your site settings include:
 
 **Adding an Article**
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
+
 **Adding a Video**
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
