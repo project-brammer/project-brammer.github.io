@@ -27,7 +27,7 @@ Your *Post* pages have several items that change the way they look, these items 
 
 * **featured** – if you set this to *true* then it will become one of the 4 articles on the home page
 
-* **feature-number** – make this a number from 1-4 to control where it will show up in the grid of 4 home page articles
+* **feature-number** – make this a number from 1-4 to control where it will show up in the grid of 4 home page articles. 1 being the top left and 4 being the bottom right, wrapping around the Twitter timeline.
 
 * **image** – this is the image that will be used for the article background
 
