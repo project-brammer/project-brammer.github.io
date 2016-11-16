@@ -37,6 +37,10 @@ Your *Post* pages have several items that change the way they look, these items 
 
 * **quote** – this is a quote of your choice that will: *1. show up on the sidebar of the article* and *2. show up as the body whenever somebody shares the article. (in the case of Twitter, it will show up as the tweet with the link and 'via @jpbrammer')*
 
+* **video-link** – this is the embed code for the video
+
+* **video** – if you set this to *true* then it will have a speaking icon in the work page
+
 ---
 
 ### Updating your Site Settings
