@@ -11,7 +11,7 @@ layout: default
     </div>    
 </div>
 <div class="home-posts">
-    {% assign hero_work = (site.work|where:"hero","true") %}
+    {% assign hero_work = (site.posts|where:"hero","true") %}
     {% for post in hero_work limit:1 %}
         <a href="{{ post.url }}" class="hero-post-link">
             <div class="hero-post" style="background-image: url({{ post.image }})">
@@ -33,7 +33,7 @@ layout: default
         </a>
     {% endfor %}
     <div class="row featured-posts">
-        {% assign featured_work = (site.work|where:"featured","true") %}
+        {% assign featured_work = (site.posts|where:"featured","true") %}
         {% for post in featured_work limit:4 %}
             <a href="{{ post.url }}" class="featured-post {{ post.feature-number | prepend: 'feature-' }}" style="background-image: url({{ post.image }})">
                 <div class="featured-post-data">
