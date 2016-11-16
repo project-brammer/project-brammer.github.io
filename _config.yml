@@ -23,6 +23,7 @@ defaults:
     original: 
     quote: 
     permalink: "/work/:title/"
+    video-link: 
 name: John Paul Brammer
 markdown: kramdown
 exclude:
