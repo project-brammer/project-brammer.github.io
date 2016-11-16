@@ -12,6 +12,8 @@ original: https://www.theguardian.com/commentisfree/2016/nov/07/donald-trump-pre
 quote: The Donald Trump nightmare will endure for Latinos regardless
 ---
 
+> Despite higher than usual early voting among Latin communities, Trump could still succeed. Even if he doesn’t, he’s made racism against us fashionable again
+
 The nightmare truly began when Donald Trump [threw](https://www.theguardian.com/us-news/2015/aug/26/donald-trump-in-iowa-obama-esque-campaign-but-the-same-mouthy-mogul) Jorge Ramos out of a press conference in August last year. Some might argue it was when he called Mexican immigrants “[rapists](https://www.theguardian.com/us-news/2015/jul/02/donald-trump-racist-claims-mexico-rapes)” the month before, but the beast hadn’t yet emerged, hadn’t yet been given a clear face or features.
 
 “Go back to Univision!” Trump shouted as Ramos was escorted out of the room. The familiar syntax was not lost on us Latinos, who have been told to “go back” for as long as we’ve been in the United States, whether we were born here or not.
