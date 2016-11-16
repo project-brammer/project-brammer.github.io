@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $('.hero-post-link, .featured-post, .post').Lazy({
+    effect: "fadeIn",
+    effectTime: 300,
+    threshold: 0
+  });
   $('.menu-button').sidr();
   $('.close-button').sidr('close', 'sidr-main');
   if ( $('.meta-stick').is(":visible")){
