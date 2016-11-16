@@ -65,16 +65,22 @@ Your site settings include:
 
 **Adding an Article**
 
+<br><br>
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ok_chdAp0WA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <br><br>
 
 **Adding a Video**
 
+<br><br>
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/MSiAUeIpZuI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <br><br>
 
 **Site Settings & Building your Media Kit**
+
+<br><br>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/U9O2Tdr_Tkc?rel=0" frameborder="0" allowfullscreen></iframe>
