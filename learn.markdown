@@ -7,6 +7,10 @@ layout: skinny-content
 
 ## Hey John! This is where we house all instructions for using your new website.
 
+Any questions? DM or E-mail me:
+[@isthatjeff](http://www.twitter.com/isthatjeff)
+[jeff@thinkpuro.com](mailto:jeff@thinkpuro.com)
+
 ---
 
 [Login to your Admin Area](https://manage.siteleaf.com/sites/581e54fce2771c33c3a5a45e/collections/posts){:target="_blank"}
