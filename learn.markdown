@@ -7,7 +7,7 @@ layout: skinny-content
 
 ## Hey John! This is where we house all instructions for using your new website.
 
-Any questions? DM or E-mail me:
+Any questions? DM or E-mail me: <br>
 [@isthatjeff](http://www.twitter.com/isthatjeff)
 [jeff@thinkpuro.com](mailto:jeff@thinkpuro.com)
 
