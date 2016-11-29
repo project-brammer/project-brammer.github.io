@@ -619,14 +619,14 @@ blockquote {
   background-color: #DDD;
   color: #222;
   border-left: 5px solid #00BFA5;
-  padding: 2em;
+  padding: 2em 3em;
   margin: 0;
   margin-bottom: 50px;
   font-style: oblique;
   -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2); }
   blockquote p {
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 1.7em;
     margin: 0; }
 
@@ -1625,7 +1625,6 @@ blockquote {
     color: #222;
     margin: 16px 0;
     text-transform: none;
-    padding-right: 32px;
     position: relative;
     font-style: oblique; }
     .meta .quote i {
@@ -1643,6 +1642,7 @@ blockquote {
   .meta .tags {
     background-color: transparent;
     padding: 0;
+    padding-bottom: 16px;
     color: #222;
     text-transform: uppercase;
     -webkit-transition: none;
@@ -1650,6 +1650,9 @@ blockquote {
     letter-spacing: 0.2em;
     font-size: 10px;
     font-weight: 400; }
+  .meta .date {
+    padding: 16px 0 !important;
+    display: block; }
   .meta a {
     font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
@@ -1841,7 +1844,7 @@ blockquote {
         width: 100%;
         margin-bottom: 24px;
         height: 300px;
-        padding: 32px 56px 32px 32px; } }
+        padding: 8px 56px 16px 14px; } }
     .posts .post:hover {
       text-decoration: none; }
       .posts .post:hover:after {
@@ -1849,15 +1852,10 @@ blockquote {
     .posts .post i {
       position: absolute;
       font-size: 24px;
-      right: 16px;
-      top: 16px;
+      right: 0;
+      top: 0;
       z-index: 4;
       color: #222; }
-      @media screen and (max-width: 640px) {
-        .posts .post i {
-          top: 8px;
-          right: 8px;
-          font-size: 16px; } }
     .posts .post .meta-publisher {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 auto;
@@ -1880,6 +1878,7 @@ blockquote {
         color: white;
         margin: 0;
         margin-bottom: 32px;
+        margin-top: 20px;
         font-size: 64px;
         font-size: 2.5vw; }
         @media (max-width: 960px) {
@@ -1896,19 +1895,23 @@ blockquote {
         color: rgba(255, 255, 255, 0.5);
         font-size: 0.875em;
         font-weight: 700;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: default !important; }
         .posts .post .post-info span .tags {
           margin: 0;
           display: inline;
-          font-size: 0.875em; }
+          font-size: 0.875em;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          line-height: 1 !important; }
           .posts .post .post-info span .tags:last-child:after {
             content: ""; }
           .posts .post .post-info span .tags:after {
             content: " | "; }
     .posts .post:before {
       content: "";
-      width: 112px;
-      height: 112px;
+      width: 70px;
+      height: 70px;
       background-color: #FFF;
       background-size: cover;
       -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
@@ -1920,10 +1923,6 @@ blockquote {
       top: -1px;
       right: -1px;
       z-index: 3; }
-      @media screen and (max-width: 960px) {
-        .posts .post:before {
-          width: 56px;
-          height: 56px; } }
     .posts .post:after {
       content: "";
       position: absolute;

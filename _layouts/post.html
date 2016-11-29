@@ -30,7 +30,7 @@
     <div class="skinny-row" id="post-container">
         <div class="meta-stick">
           <div class="meta">
-            <span class="tags">{% for tag in page.tags %}{{ tag }} | {% endfor %}</span><br>Date: {{ page.date | date: '%B %d, %Y' }}<br><br>
+            <span class="tags">{{ page.tags | join: " | " }}</span><span class="date">Date: {{ page.date | date: '%B %d, %Y' }}</span>
             <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
               {% if page.publisher %}
                 <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">
