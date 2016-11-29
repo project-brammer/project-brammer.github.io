@@ -4,7 +4,6 @@ date: 2016-11-16 08:52:00 Z
 tags:
 - lgbtq
 featured: true
-feature-number: 5
 image: https://qzprod.files.wordpress.com/2016/11/rtx2thzx.jpg?quality=80&strip=all&w=3200
 publisher: quartz
 original: http://qz.com/837969/i-am-chicano-i-am-queer-i-am-the-other-where-will-i-fit-in-trumps-america/
