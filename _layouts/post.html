@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="meta-mobile">
-          <span class="tags">{% for tag in page.tags %}{{ tag }} | {% endfor %}</span><br>{% if page.date %}Date: {{ page.date | date: '%B %d, %Y' }}{% endif %}<br><br>
+          <span class="tags">{{ page.tags | join: " | " }}</span><span class="date">{% if page.date %}Date: {{ page.date | date: '%B %d, %Y' }}{% endif %}</span>
             <span href="#" id="{{ page.publisher }}" class="meta-publisher"> 
               {% if page.publisher %}
                 <img src="../../assets/img/{{ page.publisher | append: '.svg' }}" alt="{{ page.publisher }}">

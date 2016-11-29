@@ -1506,13 +1506,13 @@ blockquote {
     margin-top: 0;
     margin-bottom: 20px; }
   .meta-mobile .quote {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    line-height: 2em;
     color: #222;
     margin: 16px 0;
     text-transform: none;
-    padding-right: 32px;
-    position: relative; }
+    position: relative;
+    font-style: oblique; }
     .meta-mobile .quote i {
       color: rgba(0, 0, 0, 0.1);
       font-size: 36px;
@@ -1537,6 +1537,9 @@ blockquote {
     letter-spacing: 0.2em;
     font-size: 10px;
     font-weight: 400; }
+  .meta-mobile .date {
+    padding: 16px 0 !important;
+    display: block; }
   .meta-mobile a {
     font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
