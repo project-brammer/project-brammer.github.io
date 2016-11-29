@@ -3,7 +3,6 @@ title: 7 Things I Wish I Knew Before Coming Out as Gay
 date: 2016-11-16 07:53:00 Z
 tags:
 - lgbtq
-featured: true
 feature-number: 2
 image: http://i.huffpost.com/gen/1974832/images/n-GAY-628x314.jpg
 publisher: huffington
