@@ -5,7 +5,7 @@ tags:
 - podcast
 - Slate
 image: "/uploads/170111_PRUDIE_parents-bed.jpg.CROP.promo-xlarge2.jpg"
-publisher: Slate
+publisher: slate
 original: http://www.slate.com/articles/podcasts/dear_prudence/2017/01/dear_prudence_podcast_the_family_matters_edition.html
 quote: Prudence and Juan-Pablo Brammer on low-key racism, in-law hookups, and other
   family affairs.
