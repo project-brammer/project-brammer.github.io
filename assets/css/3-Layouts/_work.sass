@@ -66,7 +66,7 @@
             width: 100%
             margin-bottom: 24px
             height: 300px
-            padding: 32px 56px 32px 32px
+            padding: 8px 56px 16px 14px
         &:hover
             text-decoration: none
             &:after
@@ -74,14 +74,10 @@
         i
             position: absolute
             font-size: 24px
-            right: 16px
-            top: 16px
+            right: 0
+            top: 0
             z-index: 4
             color: #222
-            @media screen and (max-width: 640px)
-                top: 8px
-                right: 8px
-                font-size: 16px
         .meta-publisher
             flex: 0 0 auto
             width: auto
@@ -101,6 +97,7 @@
                 color: white
                 margin: 0
                 margin-bottom: 32px
+                margin-top: 20px
                 +responsive-type(2.5vw, 24px, 64px, 64px)
             span
                 width: 50%
@@ -111,18 +108,22 @@
                 font-size: 0.875em
                 font-weight: 700
                 text-transform: uppercase
+                line-height: default !important
                 .tags
                     margin: 0
                     display: inline
                     font-size: 0.875em
+                    margin-bottom: 0
+                    padding-bottom: 0
+                    line-height: 1 !important
                     &:last-child:after
                         content: ""
                     &:after
                         content: " | "
         &:before
             content: ""
-            width: 112px
-            height: 112px
+            width: 70px
+            height: 70px
             background-color: #FFF
             background-size: cover
             clip-path: polygon(0% 100%, 100% 100%, 0% 0%)
@@ -131,9 +132,6 @@
             top: -1px
             right: -1px
             z-index: 3
-            @media screen and (max-width: 960px)
-                width: 56px
-                height: 56px
         &:after
             content: ""
             position: absolute

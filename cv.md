@@ -59,6 +59,10 @@ layout: content-page
             <li>
             Traveled to Baltimore during the uprisings to report.
             </li>
+            <li>
+            Traveled to Standing Rock to report on Dakota Access Pipeline protests.
+            </li>
+
         </ul>
     </div>
     <div class="work-section">
@@ -81,10 +85,10 @@ layout: content-page
             <b>Slate, Remote</b> – Wrote an essay on the importance of Latino night at gay clubs for Slate.
             </li>
             <li>
-            <b>Vox, Washington, D.C.</b> – Wrote an explainer for Vox First Person on Body Dysmorphia Disorder.
+            <b>Vox, Washington, D.C.</b> – Wrote an explainer for Vox First Person on Body Dysmorphia Disorder. Wrote a feature on the missing and murdered Indigenous women in Canada.
             </li>
             <li>
-            <b>Huffington Post, Washington, D.C.</b> – Blogged regularly for Huffington Post Queer Voices and Laitno
+            <b>Huffington Post, Washington, D.C.</b> – Blogged regularly for Huffington Post Queer Voices and Latino
             Voices.
             </li>
         </ul>

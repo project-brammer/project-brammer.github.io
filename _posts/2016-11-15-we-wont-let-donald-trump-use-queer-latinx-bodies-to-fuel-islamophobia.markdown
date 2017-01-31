@@ -3,8 +3,6 @@ title: We Won’t Let Donald Trump Use Queer Latinx Bodies To Fuel Islamophobia
 date: 2016-11-15 19:29:00 Z
 tags:
 - politics
-featured: true
-feature-number: 4
 image: http://i.huffpost.com/gen/4419150/images/n-DONALD-TRUMP-628x314.jpg
 publisher: huffington
 original: http://www.huffingtonpost.com/john-paul-brammer/we-wont-let-donald-trump-_b_10460768.html
