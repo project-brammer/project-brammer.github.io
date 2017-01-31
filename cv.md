@@ -59,6 +59,10 @@ layout: content-page
             <li>
             Traveled to Baltimore during the uprisings to report.
             </li>
+            <li>
+            Traveled to Standing Rock to report on Dakota Access Pipeline protests.
+            </li>
+
         </ul>
     </div>
     <div class="work-section">
