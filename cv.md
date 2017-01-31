@@ -85,7 +85,7 @@ layout: content-page
             <b>Slate, Remote</b> – Wrote an essay on the importance of Latino night at gay clubs for Slate.
             </li>
             <li>
-            <b>Vox, Washington, D.C.</b> – Wrote an explainer for Vox First Person on Body Dysmorphia Disorder.
+            <b>Vox, Washington, D.C.</b> – Wrote an explainer for Vox First Person on Body Dysmorphia Disorder. Wrote a feature on the missing and murdered Indigenous women in Canada.
             </li>
             <li>
             <b>Huffington Post, Washington, D.C.</b> – Blogged regularly for Huffington Post Queer Voices and Laitno
