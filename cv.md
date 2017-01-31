@@ -88,7 +88,7 @@ layout: content-page
             <b>Vox, Washington, D.C.</b> – Wrote an explainer for Vox First Person on Body Dysmorphia Disorder. Wrote a feature on the missing and murdered Indigenous women in Canada.
             </li>
             <li>
-            <b>Huffington Post, Washington, D.C.</b> – Blogged regularly for Huffington Post Queer Voices and Laitno
+            <b>Huffington Post, Washington, D.C.</b> – Blogged regularly for Huffington Post Queer Voices and Latino
             Voices.
             </li>
         </ul>
