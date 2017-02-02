@@ -81,9 +81,10 @@ Indigenous activists point to the legacy of colonialism in Canada for creating t
 The following are just some of the problems aboriginal people suffer from disproportionately:
 
 * Incarceration rates: A 2014 report says approximately half of aboriginal offenders enter the Canadian criminal justice system under the age of 30, compared with 36 percent of non-aboriginals. They also receive longer sentences and are more likely to be sent to high-security institutions.
-Suicide rates and mental health challenges: Aboriginal people are much more likely to die by suicide than non-aboriginals in Canada, with some communities suffering from a suicide “epidemic.”
-Substance abuse: Approximately 75 percent of residents in First Nation and Inuit communities say alcoholism is a problem in their communities. The myth that aboriginal people are more genetically susceptible to alcoholism has been debunked, but systemic issues such as poverty, trauma, and lack of access to health care contribute to addiction.
-Poverty: Based on data from the 2006 census, half of First Nation children lived in poverty. For some communities, like those in Manitoba and Saskatchewan, the rates rise to 62 and 64 percent, respectively, of children living below the poverty line.
+* Suicide rates and mental health challenges: Aboriginal people are much more likely to die by suicide than non-aboriginals in Canada, with some communities suffering from a suicide “epidemic.”
+* Substance abuse: Approximately 75 percent of residents in First Nation and Inuit communities say alcoholism is a problem in their communities. The myth that aboriginal people are more genetically susceptible to alcoholism has been debunked, but systemic issues such as poverty, trauma, and lack of access to health care contribute to addiction.
+* Poverty: Based on data from the 2006 census, half of First Nation children lived in poverty. For some communities, like those in Manitoba and Saskatchewan, the rates rise to 62 and 64 percent, respectively, of children living below the poverty line.
+
 According to the RCMP, a common thread among many of the cases is sex work.
 
 “The natives who move off isolated reserves,” Cywink said, “have trouble finding jobs. They are very poor. They get involved with sex work. They’re the ones who are most vulnerable.”
