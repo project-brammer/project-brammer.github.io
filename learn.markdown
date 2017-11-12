@@ -9,7 +9,7 @@ layout: skinny-content
 
 Any questions? DM or E-mail me: <br>
 [@isthatjeff](http://www.twitter.com/isthatjeff)
-[jeff@thinkpuro.com](mailto:jeff@thinkpuro.com)
+[jeff@kubonyc.com](mailto:jeff@kubonyc.com)
 
 ---
 
